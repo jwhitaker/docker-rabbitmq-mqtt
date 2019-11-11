@@ -1,4 +1,4 @@
-FROM rabbitmq:3.5.0
+FROM rabbitmq:3.8.1
 MAINTAINER Jason Whitaker <jason@thewhitakers.ca>
 
 RUN rabbitmq-plugins enable --offline rabbitmq_management
